@@ -1,0 +1,37 @@
+.image{    
+    display: block;
+    width: 380px;
+    object-fit: cover;
+    object-position: center;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    box-sizing: border-box;   
+}
+.defaultimage{
+    vertical-align: middle;
+    
+    width: 50px;
+    object-fit: contain;
+    object-position: left;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 50%;    
+}
+.icontimage{
+    vertical-align: middle;
+    margin-left: 50px;
+    width: 100px;
+    height: 50px;
+    object-fit: contain;
+    object-position: left;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border: none;     
+}
+.lines-icon{
+    padding-top: 5px;
+    height: 30px;
+  }

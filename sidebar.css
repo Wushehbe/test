@@ -1,0 +1,64 @@
+.sidebar1{   
+position: fixed;
+top: 0;
+left: 0;
+bottom: 0;
+padding-top: 40px;
+background-color: purple;
+display: flex;
+flex-direction: column;
+gap: 20px; /* Adjust spacing between items */
+width: 55px;
+z-index: 1;
+padding-top: 110px;
+}
+.sidebar-edit{
+    display: flex; /* Make it a flex container */
+    flex-direction: column; /* Stack content inside */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    width: 100%; /* Ensure it takes full width of sidebar */
+    color: whitesmoke;
+    margin-bottom: 10px;
+}
+.sidebar-edit:hover{
+cursor: pointer;
+background-color: rgb(177, 7, 177);
+}
+.sidebar-edit img{
+width: 30px;
+}
+.sidebar-edit div{
+    font-family: Robto,Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: whitesmoke;
+    text-align: center;
+}
+.sidebar2 {
+    position: fixed;
+    top: 0;
+    left: 55px;
+    bottom: 0;
+    flex-direction: column; /* Stack elements vertically */
+    width: 60px; /* Set width to make sidebar visible */
+    background-color: palevioletred;
+    display: flex;
+    align-items: center;
+    justify-content: top; /* Center text */
+    z-index: 1;
+    padding-top: 110px;
+}
+
+.absolute {
+    position: relative;
+    top: 10px;
+    left: 0;
+    width: 100%; /* Make it stretch to full sidebar width */
+    text-align: center; /* Center text inside */
+    color: white; /* Text color for better visibility */
+    font-weight: bold;
+}
+.absolute:hover{
+background-color: rgb(246, 148, 181) ;
+cursor: pointer;
+}
