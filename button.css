@@ -50,6 +50,8 @@
   vertical-align: auto;
   display: inline-block;/*it keeps the item in single block without border with inline function it wwould take only button space on page*/
   box-sizing: border-box;
+  max-width: 400px;
+  width: fit-content;
 }
 
 .grid{
